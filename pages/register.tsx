@@ -1,14 +1,14 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 
-const Partners = () => {
+const Register = () => {
   return (
     <div>
       <Navbar/>
-      <h1>Partners</h1>
-      <p>This is the Partners page.</p>
+      <h1>Register</h1>
+      <p>This is the Register page.</p>
     </div>
   );
 };
 
-export default Partners;
+export default Register;
