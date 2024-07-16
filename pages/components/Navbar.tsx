@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from './Nav.module.css';
+import navStyles from '../../styles/Nav.module.css';
 
 const NavBar: React.FC= ({}) => {
   return (
-    <nav className={styles.navbar}>
+    <nav className={navStyles.navbar}>
 
     </nav>
   );
