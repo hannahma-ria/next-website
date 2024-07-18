@@ -1,34 +1,35 @@
 import React from 'react';
 import navStyles from '../../styles/Nav.module.css';
-import * as data from './links.json'
+import * as data from './links.json';
 const linksString = JSON.stringify(data);
 const links = JSON.parse(linksString).links;
 
 type Link = {
   label: string;
   href: string;
-}
-const NavBar: React.FC<{}>= () => {
+};
+
+const Navbar: React.FC<{}> = () => {
   return (
     <nav className={navStyles.navbar}>
-      <div className={navStyles['logo-container']}>
-        <a href="/">Link</a>
-         
+      <div className={navStyles.logoContainer}>
+        <a href="/">Logo</a>
       </div>
-      <div className={navStyles['link-container']}>
-        {links.map((link: Link) => {
-          return (
-            <div key={link.href} className={navStyles['link']}>
-              <a href={link.href}>
-                {link.label}
-              </a>
-            </div>
-          )
-        })}
+      <div className={navStyles.rightContainer}>
+      <div className={navStyles.linkContainer}>
+          {links.map((link: Link) => (
+            <a key={link.href} href={link.href} className={navStyles.link}>
+              {link.label}
+            </a>
+          ))}
+        </div>
+        <div className={navStyles.searchContainer}>
+          <input type="text" placeholder="Search..." className={navStyles.searchInput} />
+        </div>
+        
       </div>
-
     </nav>
   );
 };
 
-export default NavBar;
+export default Navbar;
