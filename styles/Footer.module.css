@@ -51,7 +51,7 @@
     padding: 10px;
     margin-bottom: 10px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 16px;
   }
   
   .feedbackBox p {
@@ -59,13 +59,13 @@
   }
   
   .feedbackButton {
-    background-color: red;
+    background-color: #EB0D07;
     color: #ffffff;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     font-size: 1rem;
-    border-radius: 20px;
+    border-radius: 16px;
   }
 
   .socialLinks a {
