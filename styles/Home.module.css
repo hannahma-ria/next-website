@@ -1,5 +1,5 @@
 .banner{
-    height: 400px;
+    height: 500px;
     background-image: url('/NHA banner.png'); /* Update the path to your image */
     background-size: cover; /* Ensures the image covers the container */
     background-position: center;

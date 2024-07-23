@@ -7,7 +7,9 @@ const Footer: React.FC<{}>= () => {
       <div className={footStyles.topSection}>
         <div className={footStyles.leftSection}>
           <div className={footStyles.logoContainer}>
-            <a href="/">Logo</a>
+          <a href="/">
+            <img src="HUNCH academy logo.png" alt="logo" ></img>
+          </a>
           </div>
           <div className={footStyles.contactInfo}>
             <p>NASA HUNCH Academy</p>
@@ -40,10 +42,18 @@ const Footer: React.FC<{}>= () => {
             <button className={footStyles.feedbackButton}>Submit Feedback</button>
           </div>
           <div className={footStyles.socialLinks}>
-          <a href="https://instagram.com">Instagram</a>
-            <a href="https://facebook.com">Facebook</a>
-            <a href="https://x.com">X</a>
-            <a href="https://youtube.com">Youtube</a>
+            <a href="https://instagram.com">
+              <img src="instagram.png" alt="insta" ></img>
+            </a>
+            <a href="https://facebook.com">
+              <img src="facebook.png" alt="facebook" ></img>
+            </a>
+            <a href="https://x.com">
+              <img src="twitter.png" alt="x" ></img>
+            </a>
+            <a href="https://youtube.com">
+              <img src="youtube.png" alt="youtube" ></img>
+            </a>
           </div>
         </div>
       </div>

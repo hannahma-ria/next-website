@@ -13,7 +13,9 @@ const Navbar: React.FC<{}> = () => {
   return (
     <nav className={navStyles.navbar}>
       <div className={navStyles.logoContainer}>
-        <a href="/">Logo</a>
+        <a href="/">
+          <img src="HUNCH academy logo.png" alt="logo" ></img>
+        </a>
       </div>
       <div className={navStyles.rightContainer}>
       <div className={navStyles.linkContainer}>

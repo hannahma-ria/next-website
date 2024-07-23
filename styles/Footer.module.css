@@ -20,10 +20,17 @@
   }
   
   .leftSection .logoContainer a {
-    font-weight: 500;
-    font-size: 1.5rem;
-    display: block;
-    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+  }
+
+  
+  .logoContainer img {
+    height: 190px;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
   }
   
   .contactInfo p {
@@ -69,8 +76,14 @@
   }
 
   .socialLinks a {
-    display: block;
-    margin-bottom: 10px;
+    margin-right: 30px;
+  }
+
+  .socialLinks img {
+    height: 50px;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
   }
   
   .bottomSection {

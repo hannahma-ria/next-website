@@ -20,7 +20,7 @@ export default function Home() {
         </div>
       </div>
       <div className={Styles.container}>
-        <img src="HUNCH Academy Logo.jpg" alt="Logo" className={Styles.image}></img>
+        <img src="Academy Logo.jpg" alt="Logo" className={Styles.image}></img>
         <div className={Styles.textContainer}>
         <h1>Projects</h1>
         <p>All projects created for HUNCH Academy have come from the wonderful minds of fellow teachers in the community. Below are our current list of projects for students to take part in.</p>
