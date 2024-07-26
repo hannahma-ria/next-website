@@ -13,8 +13,8 @@
 
   .button {
     display: flex;
-    justify-content: center; /* Center button horizontally */
-    margin-top: 20px; /* Optional: Add margin if needed */
+    justify-content: center; 
+    margin-top: 20px;
   }
 
 .button a{
