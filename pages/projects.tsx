@@ -6,18 +6,19 @@ import styles from '../styles/Project.module.css';
 
 const Projects = () => {
   const [currentPage, setCurrentPage] = useState(1);
-  const projectsPerPage = 3;
+  const projectsPerPage = 4;
 
-  // Calculate the projects to display on the current page
-  const indexOfLastProject = currentPage * projectsPerPage;
-  const indexOfFirstProject = indexOfLastProject - projectsPerPage;
-  const currentProjects = projectData.slice(indexOfFirstProject, indexOfLastProject);
+  // Split projectData into fixed pages
+  const pages = [
+    projectData.slice(0, 4),
+    projectData.slice(4, 8),
+  ];
 
-  // Calculate total pages
-  const totalPages = Math.ceil(projectData.length / projectsPerPage);
+  const currentProjects = pages[currentPage - 1] || [];
+
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <div className={styles.banner}>
         <h1>Projects</h1>
         <p>short sentence</p>
@@ -46,14 +47,14 @@ const Projects = () => {
           Previous
         </button>
         <button
-          onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
-          disabled={currentPage === totalPages}
+          onClick={() => setCurrentPage((prev) => Math.min(prev + 1, pages.length))}
+          disabled={currentPage === pages.length}
           className={styles.paginationButton}
         >
           Next
         </button>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

@@ -9,43 +9,43 @@
       "id": 2,
       "title": "Project 2",
       "description": "Short description of project 2",
-      "image": "/path/to/image2.jpg"
+      "image": "/placeholder.jpg"
     },
     {
       "id": 3,
       "title": "Project 3",
       "description": "Short description of project 3",
-      "image": "/path/to/image1.jpg"
+      "image": "/placeholder.jpg"
     },
     {
       "id": 4,
       "title": "Project 4",
       "description": "Short description of project 4",
-      "image": "/path/to/image2.jpg"
+      "image": "/placeholder.jpg"
     },
     {
       "id": 5,
       "title": "Project 5",
       "description": "Short description of project 5",
-      "image": "/path/to/image1.jpg"
+      "image": "/placeholder.jpg"
     },
     {
       "id": 6,
       "title": "Project 6",
       "description": "Short description of project 6",
-      "image": "/path/to/image2.jpg"
+      "image": "/placeholder.jpg"
     },
     {
         "id": 7,
         "title": "Project 7",
         "description": "Short description of project 7",
-        "image": "/path/to/image1.jpg"
+        "image": "/placeholder.jpg"
     },
     {
         "id": 8,
         "title": "Project 8",
         "description": "Short description of project 8",
-        "image": "/path/to/image2.jpg"
+        "image": "/placeholder.jpg"
     }
   ]
   
