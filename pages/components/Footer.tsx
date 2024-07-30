@@ -8,7 +8,7 @@ const Footer: React.FC<{}>= () => {
         <div className={footStyles.leftSection}>
           <div className={footStyles.logoContainer}>
           <a href="/">
-            <img src="HUNCH academy logo.png" alt="logo" ></img>
+            <img src="/HUNCH academy logo.png" alt="logo" ></img>
           </a>
           </div>
           <div className={footStyles.contactInfo}>
@@ -43,16 +43,16 @@ const Footer: React.FC<{}>= () => {
           </div>
           <div className={footStyles.socialLinks}>
             <a href="https://instagram.com">
-              <img src="instagram.png" alt="insta" ></img>
+              <img src="/instagram.png" alt="insta" ></img>
             </a>
             <a href="https://facebook.com">
-              <img src="facebook.png" alt="facebook" ></img>
+              <img src="/facebook.png" alt="facebook" ></img>
             </a>
             <a href="https://x.com">
-              <img src="twitter.png" alt="x" ></img>
+              <img src="/twitter.png" alt="x" ></img>
             </a>
             <a href="https://youtube.com">
-              <img src="youtube.png" alt="youtube" ></img>
+              <img src="/youtube.png" alt="youtube" ></img>
             </a>
           </div>
         </div>

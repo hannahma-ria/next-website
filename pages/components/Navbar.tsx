@@ -14,7 +14,7 @@ const Navbar: React.FC<{}> = () => {
     <nav className={navStyles.navbar}>
       <div className={navStyles.logoContainer}>
         <a href="/">
-          <img src="HUNCH academy logo.png" alt="logo" ></img>
+          <img src="/HUNCH academy logo.png" alt="logo" ></img>
         </a>
       </div>
       <div className={navStyles.rightContainer}>

@@ -3,27 +3,28 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import projectData from './components/projects.json';
 import styles from '../styles/Project.module.css';
+import Link from 'next/link';
 
 const Projects = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const projectsPerPage = 4;
 
-  // Split projectData into fixed pages
-  const pages = [
-    projectData.slice(0, 4),
-    projectData.slice(4, 8),
-  ];
+  // Calculate the projects to display on the current page
+  const indexOfLastProject = currentPage * projectsPerPage;
+  const indexOfFirstProject = indexOfLastProject - projectsPerPage;
+  const currentProjects = projectData.slice(indexOfFirstProject, indexOfLastProject);
 
-  const currentProjects = pages[currentPage - 1] || [];
+  // Calculate total pages
+  const totalPages = Math.ceil(projectData.length / projectsPerPage);
 
   return (
     <div>
-      <Navbar />
+      <Navbar/>
       <div className={styles.banner}>
         <h1>Projects</h1>
         <p>short sentence</p>
         <div className={styles.getInvolvedButton}>
-          <a href="/partners.tsx">Get Involved</a>
+          <a href="/partners">Get Involved</a>
         </div>
       </div>
       <div className={styles.text}>A quick summary of projects</div>
@@ -32,7 +33,9 @@ const Projects = () => {
       <div className={styles.projects}>
         {currentProjects.map((project) => (
           <div key={project.id} className={styles.project}>
-            <img src={project.image} alt={project.title} className={styles.image} />
+            <Link href={`/project/${project.id}`}>
+              <img src={project.image} alt={project.title} className={styles.image} />
+            </Link>
             <h2>{project.title}</h2>
             <p>{project.description}</p>
           </div>
@@ -47,14 +50,14 @@ const Projects = () => {
           Previous
         </button>
         <button
-          onClick={() => setCurrentPage((prev) => Math.min(prev + 1, pages.length))}
-          disabled={currentPage === pages.length}
+          onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages))}
+          disabled={currentPage === totalPages}
           className={styles.paginationButton}
         >
           Next
         </button>
       </div>
-      <Footer />
+      <Footer/>
     </div>
   );
 };
