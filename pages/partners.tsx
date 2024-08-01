@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import styles from '../styles/Partners.module.css';
 
+
 const Partners = () => {
   return (
     <div>
