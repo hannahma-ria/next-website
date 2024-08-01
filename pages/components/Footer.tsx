@@ -39,7 +39,7 @@ const Footer: React.FC<{}>= () => {
         <div className={footStyles.rightSection}>
         <div className={footStyles.feedbackBox}>
             <p>We'd love to hear back from you!</p>
-            <button className={footStyles.feedbackButton}>Submit Feedback</button>
+            <button className={footStyles.feedbackButton}>Submit<br />Feedback</button>
           </div>
           <div className={footStyles.socialLinks}>
             <a href="https://instagram.com">

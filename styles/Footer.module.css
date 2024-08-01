@@ -62,7 +62,7 @@
   }
   
   .feedbackBox p {
-    margin: 0 0 10px 0;
+    margin: 0 0 30px 0;
   }
   
   .feedbackButton {
@@ -73,6 +73,7 @@
     cursor: pointer;
     font-size: 1rem;
     border-radius: 16px;
+    
   }
 
   .socialLinks a {
