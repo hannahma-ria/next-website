@@ -1,7 +1,11 @@
 .container {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Center items vertically */
+    justify-content: flex-start; /* Align items to the start */
+    padding: 20px;
     position: relative;
-    width: 100%;
-    height: 100vh; /* Full viewport height */
+    width: 500px;
+    height: 350px; /* Full viewport height */
     overflow: hidden; /* Ensures the image doesn't create scrollbars */
   }
   
