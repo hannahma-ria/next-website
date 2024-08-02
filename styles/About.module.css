@@ -23,6 +23,7 @@
     align-items: center; /* Center items vertically */
     justify-content: center;
     padding: 20px;
+    
   }
   
   .text {
@@ -33,7 +34,7 @@
 
 .banner{
     height: 500px;
-    background-image: url('/NHA banner.png'); /* Update the path to your image */
+    background-image: url('/About banner.webp'); /* Update the path to your image */
     background-size: cover; /* Ensures the image covers the container */
     background-position: center;
     color: #fff;
