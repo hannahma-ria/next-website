@@ -15,7 +15,7 @@ const Partners = () => {
       </div>
       <div className={styles.content}>
         <h1>Why Become A Partner?</h1>
-        <p>Working with NASA HUNCH ACADEMY the opportunity for you to make a difference in the futures of students nationwide.</p>
+        <p>Working with NASA HUNCH ACADEMY is the opportunity for you to make a difference in the futures of students nationwide.</p>
         <h1>Current Partners</h1>
         <p>n/a</p>
         <Floating imageSrc="/rocket.webp"/>

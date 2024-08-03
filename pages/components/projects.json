@@ -1,51 +1,178 @@
 [
-    {
-      "id": 1,
-      "title": "Project 1",
-      "description": "Short description of project 1",
-      "image": "/proj1.jpg"
-    },
-    {
-      "id": 2,
-      "title": "Project 2",
-      "description": "Short description of project 2",
-      "image": "/placeholder.jpg"
-    },
-    {
-      "id": 3,
-      "title": "Project 3",
-      "description": "Short description of project 3",
-      "image": "/placeholder.jpg"
-    },
-    {
-      "id": 4,
-      "title": "Project 4",
-      "description": "Short description of project 4",
-      "image": "/placeholder.jpg"
-    },
-    {
-      "id": 5,
-      "title": "Project 5",
-      "description": "Short description of project 5",
-      "image": "/placeholder.jpg"
-    },
-    {
-      "id": 6,
-      "title": "Project 6",
-      "description": "Short description of project 6",
-      "image": "/placeholder.jpg"
-    },
-    {
-        "id": 7,
-        "title": "Project 7",
-        "description": "Short description of project 7",
-        "image": "/placeholder.jpg"
-    },
-    {
-        "id": 8,
-        "title": "Project 8",
-        "description": "Short description of project 8",
-        "image": "/placeholder.jpg"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Project 1",
+    "description": "Short description of project 1",
+    "image": "/proj1.jpg",
+    "investigationStations": [
+      {
+        "id": 1,
+        "title": "Investigation Station 1",
+        "description": "Description of Investigation Station 1",
+        "image": "/placeholder.jpg",
+        "pptLink": "/path/to/presentation1.ppt"
+      },
+      {
+        "id": 2,
+        "title": "Investigation Station 2",
+        "description": "Description of Investigation Station 2",
+        "image": "/placeholder.jpg",
+        "pptLink": "/path/to/presentation1.ppt"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Project 2",
+    "description": "Short description of project 2",
+    "image": "/placeholder.jpg",
+    "investigationStations": [
+      {
+        "id": 1,
+        "title": "Investigation Station 1",
+        "description": "Description of Investigation Station 1",
+        "image": "/placeholder.jpg",
+        "pptLink": "/path/to/presentation1.ppt"
+      },
+      {
+        "id": 2,
+        "title": "Investigation Station 2",
+        "description": "Description of Investigation Station 2",
+        "image": "/placeholder.jpg",
+        "pptLink": "/path/to/presentation1.ppt"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Project 3",
+    "description": "Short description of project 3",
+    "image": "/placeholder.jpg",
+    "investigationStations": [
+      {
+        "id": 1,
+        "title": "Investigation Station 1",
+        "description": "Description of Investigation Station 1",
+        "image": "/placeholder.jpg",
+        "pptLink": "/path/to/presentation1.ppt"
+      },
+      {
+        "id": 2,
+        "title": "Investigation Station 2",
+        "description": "Description of Investigation Station 2",
+        "image": "/placeholder.jpg",
+        "pptLink": "/path/to/presentation1.ppt"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Project 4",
+    "description": "Short description of project 4",
+    "image": "/placeholder.jpg",
+    "investigationStations": [
+      {
+        "id": 1,
+        "title": "Investigation Station 1",
+        "description": "Description of Investigation Station 1",
+        "image": "/placeholder.jpg",
+        "pptLink": "/path/to/presentation1.ppt"
+      },
+      {
+        "id": 2,
+        "title": "Investigation Station 2",
+        "description": "Description of Investigation Station 2",
+        "image": "/placeholder.jpg",
+        "pptLink": "/path/to/presentation1.ppt"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Project 5",
+    "description": "Short description of project 5",
+    "image": "/placeholder.jpg",
+    "investigationStations": [
+      {
+        "id": 1,
+        "title": "Investigation Station 1",
+        "description": "Description of Investigation Station 1",
+        "image": "/placeholder.jpg",
+        "pptLink": "/path/to/presentation1.ppt"
+      },
+      {
+        "id": 2,
+        "title": "Investigation Station 2",
+        "description": "Description of Investigation Station 2",
+        "image": "/placeholder.jpg",
+        "pptLink": "/path/to/presentation1.ppt"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Project 6",
+    "description": "Short description of project 6",
+    "image": "/placeholder.jpg",
+    "investigationStations": [
+      {
+        "id": 1,
+        "title": "Investigation Station 1",
+        "description": "Description of Investigation Station 1",
+        "image": "/placeholder.jpg",
+        "pptLink": "/path/to/presentation1.ppt"
+      },
+      {
+        "id": 2,
+        "title": "Investigation Station 2",
+        "description": "Description of Investigation Station 2",
+        "image": "/placeholder.jpg",
+        "pptLink": "/path/to/presentation1.ppt"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Project 7",
+    "description": "Short description of project 7",
+    "image": "/placeholder.jpg",
+    "investigationStations": [
+      {
+        "id": 1,
+        "title": "Investigation Station 1",
+        "description": "Description of Investigation Station 1",
+        "image": "/placeholder.jpg",
+        "pptLink": "/path/to/presentation1.ppt"
+      },
+      {
+        "id": 2,
+        "title": "Investigation Station 2",
+        "description": "Description of Investigation Station 2",
+        "image": "/placeholder.jpg",
+        "pptLink": "/path/to/presentation1.ppt"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Project 8",
+    "description": "Short description of project 8",
+    "image": "/placeholder.jpg",
+    "investigationStations": [
+      {
+        "id": 1,
+        "title": "Investigation Station 1",
+        "description": "Description of Investigation Station 1",
+        "image": "/placeholder.jpg",
+        "pptLink": "/path/to/presentation1.ppt"
+      },
+      {
+        "id": 2,
+        "title": "Investigation Station 2",
+        "description": "Description of Investigation Station 2",
+        "image": "/placeholder.jpg",
+        "pptLink": "/path/to/presentation1.ppt"
+      }
+    ]
+  }
+]

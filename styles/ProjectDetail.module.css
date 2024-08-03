@@ -1,60 +1,101 @@
-.container {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .image {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-  }
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
-  .banner{
-    height: 500px;
-    background-size: cover; /* Ensures the image covers the container */
-    background-position: center;
-    color: #fff;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    text-align: center;
-    flex-direction: column;
-  }
+.banner {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
 
-  .dropDown{
-    background-color: #0358A0;
-    border-radius: 20px;
-    margin: 30px;
-    padding: 20px;
-    color: #fff;
-  }
-  
-  .container {
-    height: 400px;
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-    padding: 20px;
-    
-  }
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
 
-  .image {
-    margin-right: 20px;
-    max-width: 100%;
-    max-height: 100%;
-  }
+.investigationStations {
+  width: 100%;
+  background-color: #0358a0;
+  border-radius: 20px;
+  margin: 30px 0;
+  padding: 20px;
+  color: #fff;
+}
 
-  .textContainer {
-    text-align: center; 
-    margin-left: 100px;
-  }
-  
-  .textContainer h1 {
-    margin: 0; 
-    margin-bottom: 10px;
-  }
-  
-  .textContainer p {
-    max-width: 600px; 
-    line-height: 1.6; 
-  }
+.stationList {
+  display: flex;
+  flex-direction: column;
+}
+
+.stationItem {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.activeStation {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.image {
+  max-width: 300px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.textContainer {
+  flex: 1;
+}
+
+.textContainer h1 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.textContainer p {
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.pptSection {
+  margin-top: 20px;
+}
+
+.pptSection h2 {
+  margin: 0 0 10px 0;
+}
+
+.pptSection a {
+  color: #0358a0;
+  text-decoration: underline;
+}
+
+.carousel {
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.carousel h2 {
+  margin-bottom: 20px;
+}
