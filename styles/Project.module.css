@@ -42,11 +42,14 @@
   
   .project {
     border: 1px solid #ddd;
+    border-radius: 20px;
     padding: 10px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 100%; /* Ensure the project card takes full width of the grid cell */
     max-width: 400px; /* Optional: Limit the width of the project card */
+    background-color: #0358A0;
+    color: white;
   }
   
   .image {

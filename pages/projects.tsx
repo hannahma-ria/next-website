@@ -34,10 +34,11 @@ const Projects = () => {
         {currentProjects.map((project) => (
           <div key={project.id} className={styles.project}>
             <Link href={`/project/${project.id}`}>
-              <img src={project.image} alt={project.title} className={styles.image} />
-            </Link>
-            <h2>{project.title}</h2>
+             
+              <h2>{project.title}</h2>
             <p>{project.description}</p>
+            </Link>
+            
           </div>
         ))}
       </div>
