@@ -40,13 +40,35 @@ const ProjectDetail = () => {
         </div>
         {currentStation && (
           <div className={styles.details}>
-            <img src={currentStation.image} alt={currentStation.title} className={styles.image} />
+            <div className={styles.videoSection}>
+              <h2>Related Videos</h2>
+              {currentStation.videoLinks.map((link, index) => (
+                <div key={index} className={styles.videoWrapper}>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src={link}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    title={`video-${index}`}
+                  ></iframe>
+                </div>
+              ))}
+            </div>
             <div className={styles.textContainer}>
               <h1>{currentStation.title}</h1>
               <p>{currentStation.description}</p>
               <div className={styles.pptSection}>
                 <h2>Related Presentations</h2>
-                <a href={currentStation.pptLink} target="_blank" rel="noopener noreferrer">Download Presentation</a>
+                {currentStation.pptLinks.map((link, index) => (
+                  <div key={index} className={styles.pptLinkContainer}>
+                    <span>Presentation {index + 1}</span>
+                    <a href={link} target="_blank" rel="noopener noreferrer" className={styles.pptButton}>
+                      <img src="/download.png" alt="Download Presentation" />
+                    </a>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
