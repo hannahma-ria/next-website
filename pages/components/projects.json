@@ -11,7 +11,7 @@
         "description": "Description of Investigation Station 1",
         "image": "/placeholder.jpg",
         "pptLinks": ["/ppt/station1-1.pdf", "/ppt/station1-2.pdf"],
-        "videoLinks": ["https://www.youtube.com/embed/xyz123", "https://www.youtube.com/embed/abc456"]
+        "videoLinks": ["https://www.youtube.com/watch?v=3tisOnOkwzo", "https://www.youtube.com/embed/abc456"]
       },
       {
         "id": 2,

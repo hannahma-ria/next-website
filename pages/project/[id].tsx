@@ -17,6 +17,14 @@ const ProjectDetail = () => {
     return <div>Project not found</div>;
   }
 
+  const getEmbedUrl = (url: string) => {
+    const urlObj = new URL(url);
+    if (urlObj.hostname === 'www.youtube.com' && urlObj.searchParams.get('v')) {
+      return `https://www.youtube.com/embed/${urlObj.searchParams.get('v')}`;
+    }
+    return url;
+  };
+
   return (
     <div className={styles.wrapper}>
       <Navbar />
@@ -47,7 +55,7 @@ const ProjectDetail = () => {
                   <iframe
                     width="560"
                     height="315"
-                    src={link}
+                    src={getEmbedUrl(link)}
                     frameBorder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

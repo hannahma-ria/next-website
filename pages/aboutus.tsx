@@ -20,7 +20,7 @@ const AboutUs = () => {
       <Floating imageSrc="/astronautFloating.png"/>
         <div className={styles.content}>
           <h1>"</h1>
-          <h1>abc def ghi jkl mon p.</h1>
+          <h2>abc def ghi jkl mon p.</h2>
         </div>
       </div>
       <div className={styles.text}>
