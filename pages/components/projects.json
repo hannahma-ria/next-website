@@ -9,6 +9,7 @@
         "id": 1,
         "title": "Investigation Station 1",
         "description": "Description of Investigation Station 1",
+        "standard": ["CD", "AB"],
         "image": "/placeholder.jpg",
         "pptLinks": ["/ppt/station1-1.pdf", "/ppt/station1-2.pdf"],
         "videoLinks": ["https://www.youtube.com/watch?v=3tisOnOkwzo", "https://www.youtube.com/embed/abc456"]

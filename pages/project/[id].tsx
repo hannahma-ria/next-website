@@ -81,6 +81,16 @@ const ProjectDetail = () => {
             </div>
           </div>
         )}
+       <div className={styles.textContainer}>
+            <h2>Standards</h2>
+            {project.investigationStations.map(station => (
+                <div key={station.id}>
+                {station.standard && station.standard.join(', ')}
+                </div>
+            ))}
+        </div>
+
+
         <div className={styles.carousel}>
           <h2>Project Gallery</h2>
           <Carousel images={project.investigationStations.map(station => station.image)} />
